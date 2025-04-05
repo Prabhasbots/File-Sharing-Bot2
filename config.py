@@ -42,8 +42,9 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "📂 ғɪʟᴇɴᴀᴍᴇ : @AJ_TVSERIAL {file_name}
-Jᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+
+Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/Baalveer_5_AJ)</b>"
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
