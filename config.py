@@ -11,15 +11,15 @@ API_HASH = os.environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "5232142502"))
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://King:Cobra765592@cluster0.qy4m5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002259385936"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002605527708"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "3600")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
@@ -29,7 +29,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "5232142502").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
