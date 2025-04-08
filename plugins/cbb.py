@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🤖 My Name :</b> <a href='https://t.me/Baalveer5_bot'>Baalveer 5</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>✨️ υρ∂αтє ¢нαηηєℓ :</b> <a href='https://t.me/Baalveer_5_AJ'>𝙰𝙹_𝚃𝚅𝚂𝙴𝚁𝙸𝙰𝙻</a> \n<b>🧑‍💻 Developer :</b> <a href='https://t.me/AJ_TVSERIAL_BOT'>📍ѕυρρσят</a>",
+            text = f"<b>🤖 My Name :</b> <a href='https://t.me/Baalveer_5_bot'>Baalveer 5</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>✨️ Join :</b> <a href='https://t.me/baalveer_5Q'>Vaibhav</a> \n<b>🧑‍💻 Developer :</b> <a href='https://t.me/SVMRipps'>📍Vaibhav</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
